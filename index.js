@@ -19,7 +19,7 @@ module.exports = {
           , promises     = []
           , scriptId     = step.input('script_id').first()
           , fn           = step.input('function').first()
-          , parameters   = step.input('parameters').toArray()
+          , parameters   = step.input('parameters').first()
           , devMode      = step.input('dev_mode').first()
           , data
         ;

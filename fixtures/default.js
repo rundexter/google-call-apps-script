@@ -73,7 +73,7 @@ module.exports = _.merge({
              */
             input: {
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                parameters : ['1wrNu-1v-wbPJGlRlHY3JG3NQKp8O2RrPB5ST4afnTVM', 'who are you']
+                parameters : [ [ '1wrNu-1v-wbPJGlRlHY3JG3NQKp8O2RrPB5ST4afnTVM', 'who are you' ] ]
                 , dev_mode : true
                 , function : 'lookupAndCompute'
                 , script_id: 'M96fgc6zwIkFPHVR-GmT-lVv6xFqglN_I'
