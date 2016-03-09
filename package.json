@@ -1,12 +1,18 @@
 {
-    "name": "google-call-apps-script",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "author": "Dexter",
-    "license": "ISC",
-    "private": true,
-    "dependencies": {
-        "lodash": "^3.9.3"
-    }
+  "name": "google-call-apps-script",
+  "version": "0.0.1",
+  "description": "Spreadsheet Bot running on apps script",
+  "main": "index.js",
+  "author": "Dexter",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "googleapis": "^2.1.7",
+    "lodash": "^4.6.1",
+    "q": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/rundexter/google-call-apps-script"
+  }
 }

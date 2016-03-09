@@ -1,26 +1,29 @@
-/*
- * Metadata describing the module operation
- */
 {
-    //Required. Inputs the module expects.
-    "inputs": [
-        //e.g.
-        /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-        */
-    ],
-    //Required. Outputs the module emits.
-    "outputs": [
-      //e.g.
-      /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-      */
-    ],
-    "title": "Google Call Apps Script" /* Required.A display name for the module */
+    "inputs": [{
+        "id"    : "parameters"
+        , "title" : "Parameters"
+        , "description" : "An array of parameters to send to the function" 
+    }, {
+        "id"    : "script_id"
+        , "title" : "Script Id"
+        , "description" : "The Script Id to execute" 
+    }, {
+        "id"    : "dev_mode"
+        , "title" : "Dev Mode"
+        , "description" : "Defaults to false. Set to '=true' to operate on the latest saved version of the script, instead of the latest published version." 
+    }, {
+        "id"    : "function"
+        , "title" : "Function"
+        , "description" : "The function name to call" 
+    }],
+    "outputs": [{
+        "id"    : "result",
+        "title" : "Result"
+    }],
+    "icon" : "google",
+    "providers": [{
+        "name": "google",
+        "scopes": [ "https://www.googleapis.com/auth/spreadsheets" ]
+    }],
+    "title": "Google Call Apps Script" 
 }
