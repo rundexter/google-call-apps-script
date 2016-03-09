@@ -38,8 +38,10 @@ module.exports = {
             scriptId: scriptId
         };
 
-        promisify(service.scripts.run.bind(service.scripts), data, 'response')
-          .then(this.complete.bind(this))
+        promisify(service.scripts.run.bind(service.scripts), data)
+          .then(function(i) {
+            self.complete(i);
+          })
           .catch(function(err) { self.fail(require('util').inspect(err, { depth: 5 })); })
         ;
     }

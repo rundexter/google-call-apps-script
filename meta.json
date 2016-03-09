@@ -17,8 +17,8 @@
         , "description" : "The function name to call" 
     }],
     "outputs": [{
-        "id"    : "result",
-        "title" : "Result"
+        "id"    : "response",
+        "title" : "Response"
     }],
     "icon" : "google",
     "providers": [{
