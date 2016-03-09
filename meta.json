@@ -1,0 +1,26 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    //Required. Inputs the module expects.
+    "inputs": [
+        //e.g.
+        /*
+        {
+            "id": "from",
+            "title":"From"
+        }
+        */
+    ],
+    //Required. Outputs the module emits.
+    "outputs": [
+      //e.g.
+      /*
+        {
+            "id": "from",
+            "title":"From"
+        }
+      */
+    ],
+    "title": "Google Call Apps Script" /* Required.A display name for the module */
+}

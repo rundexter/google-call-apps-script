@@ -1,0 +1,12 @@
+{
+    "name": "google-call-apps-script",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "author": "Dexter",
+    "license": "ISC",
+    "private": true,
+    "dependencies": {
+        "lodash": "^3.9.3"
+    }
+}
