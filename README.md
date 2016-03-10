@@ -23,7 +23,7 @@
 ### form 
 > For future use by the Dexter App Editor
 
-## Implmentation Details
+## Implementation Details
 
 ### Testing the module
 > Update the default fixture in `fixtures/default.js` with some artificial details for
