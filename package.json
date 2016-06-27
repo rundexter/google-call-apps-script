@@ -1,6 +1,6 @@
 {
   "name": "google-call-apps-script",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Spreadsheet Bot running on apps script",
   "main": "index.js",
   "author": "Dexter",
